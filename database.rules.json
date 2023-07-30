@@ -1,0 +1,8 @@
+{
+  "rules": {
+    "data": {
+      ".read": true,
+      ".write": true
+    }
+  }
+}

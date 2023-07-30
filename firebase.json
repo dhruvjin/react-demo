@@ -1,0 +1,9 @@
+{
+  "hosting": {
+    "site": "react-collab-40988",
+    "public": "build"
+  },
+  "database": {
+    "rules": "database.rules.json"
+  }
+}
