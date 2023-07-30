@@ -19,7 +19,7 @@ import io from 'socket.io-client';
 import { GroupNode } from './GroupNode';
 import NodeDataInput from './NodeDataInput';
 
-const SOCKET_SERVER_URL = 'http://localhost:5000';
+const SOCKET_SERVER_URL = 'https://easygov-react.netlify.app/';
 
 
 const CustomEdge = ({ id, sourceX, sourceY, targetX, targetY, sourceHandleX, sourceHandleY, targetHandleX, targetHandleY, style = {} }) => {
