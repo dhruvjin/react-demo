@@ -19,7 +19,7 @@ import io from 'socket.io-client';
 import { GroupNode } from './GroupNode';
 import NodeDataInput from './NodeDataInput';
 
-const SOCKET_SERVER_URL = 'https://localhost:5000';
+const SOCKET_SERVER_URL = 'https://react-demo-nu-lake.vercel.app/';
 
 
 const CustomEdge = ({ id, sourceX, sourceY, targetX, targetY, sourceHandleX, sourceHandleY, targetHandleX, targetHandleY, style = {} }) => {
