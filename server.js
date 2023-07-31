@@ -5,6 +5,9 @@ const io = require('socket.io')(server, {
     origin: '*',
   },
 });
+const express=require('express');
+const app=express();
+app.use(cors());
 
 const nodes = []; // Global variable to store node positions
 const edges = []; // Global variable to store edge information
